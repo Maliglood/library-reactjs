@@ -6,3 +6,4 @@
 /src/library-reactjs/Front/Scripts/*.map
 /src/library-reactjs/wwwroot/main.js
 /src/library-reactjs/wwwroot/polyfills.js
+/src/library-reactjs/node_modules
