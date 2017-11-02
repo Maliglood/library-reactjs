@@ -6,7 +6,7 @@ var CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
     entry: {
-        polyfills: "./Front/Scripts/polyfills.ts",
+        //polyfills: "./Front/Scripts/polyfills.ts",
         main: "./Front/main.tsx"
     },
 
