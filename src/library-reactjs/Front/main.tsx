@@ -1,9 +1,10 @@
-﻿import * as React from "react";
-import * as ReactDOM from "react-dom";
+﻿/// <reference path="../typings/react/react.d.ts" />
 
+import * as React from "react";
+import * as ReactDOM from "react-dom";
 import { Hello } from "./components/hello";
 
 ReactDOM.render(
     <Hello compiler="TypeScript" framework="React" />,
-    document.getElementById("content")
+    document.getElementById("main")
 );

@@ -9,14 +9,17 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "removeComments": false,
-    "noImplicitAny": false
+    "noImplicitAny": false,
+    "typeRoots": [
+      "typings"
+    ]
   },
   "awesomeTypescriptLoaderOptions": {
     "useWebpackText": true // Allows other loaders to be chained to awesome-typescript-loader.
   },
   "exclude": [
     "node_modules",
-    "typings/index.d.ts"
+    "typings"
   ],
   "types": [
     "core-js"
