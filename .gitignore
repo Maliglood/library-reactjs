@@ -10,3 +10,5 @@
 /src/library-reactjs/bin
 /src/library-reactjs/obj
 /src/library-reactjs/Front/Views/app.js
+*.map
+/src/library-reactjs/Front/Views/bookList.js
