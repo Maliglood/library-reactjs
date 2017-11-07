@@ -1,9 +1,9 @@
 ﻿import * as React from "react";
 import * as ReactDOM from "react-dom";
 
-import { Hello } from "./components/hello";
+import { AppView } from "./Views/app";
 
 ReactDOM.render(
-    <Hello compiler="TypeScript" framework="React" />,
+    <AppView innerHtml="<p>Version 1.0</p>" />,
     document.getElementById("main")
 );

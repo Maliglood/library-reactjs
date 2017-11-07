@@ -1,9 +1,7 @@
 /src/library-reactjs/Front/main.js
-/src/library-reactjs/Front/main.js.map
-/src/library-reactjs/Front/components/*.map
+/src/library-reactjs/Front/*.map
 /src/library-reactjs/Front/components/*.js
 /src/library-reactjs/Front/Scripts/*.js
-/src/library-reactjs/Front/Scripts/*.map
 /src/library-reactjs/wwwroot/main.js
 /src/library-reactjs/wwwroot/polyfills.js
 /src/library-reactjs/node_modules
@@ -11,3 +9,4 @@
 /src/library-reactjs/wwwroot/Scripts/polyfills.js
 /src/library-reactjs/bin
 /src/library-reactjs/obj
+/src/library-reactjs/Front/Views/app.js
