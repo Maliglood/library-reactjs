@@ -1,4 +1,5 @@
 ﻿import * as React from "react";
+import { BookListView } from "./bookList";
 
 export interface AppProps { innerHtml: string; buttonText: string; }
 export interface AppState { buttonText: string; }
@@ -14,6 +15,10 @@ export class AppView extends React.Component<AppProps, AppState> {
     }
     press() {
         this.setState({ buttonText: "You clicked button" });
+    }
+    componentDidMount() {
+        let bookListView = new BookListView();
+        bookListView.render(document.getElementById("books-list"));
     }
     render() {
         return <div className="page-header">
